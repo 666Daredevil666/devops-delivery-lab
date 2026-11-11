@@ -1,0 +1,52 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.kubeconfig
+kubeconfig
+.kube/
+.secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Terraform state, credentials and saved plans
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+*.tfplan
+tfplan
+.terraformrc
+terraform.rc
+crash.log
+crash.*.log
+
+# Runtime data and local backups
+.data/
+backups/
+*.dump
+*.log
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.swo
